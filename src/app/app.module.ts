@@ -16,14 +16,16 @@ import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NextDirective } from './directives/next.directive';
-import { GreetingsComponent } from './greetings/greetings.component';
+import { PrevDirective } from './directives/prev.directive';
 import { IntroComponent } from './intro/intro.component';
 import { QuestionsComponent } from './questions/questions.component';
 import { RouteModule } from './route/route.module';
 import { metaReducers, reducers } from './store';
 import { ThanksComponent } from './thanks/thanks.component';
 import { TitleComponent } from './title/title.component';
-import { PrevDirective } from './directives/prev.directive';
+import { PointerIntroComponent } from './pointer-intro/pointer-intro.component';
+import { PointerExpComponent } from './pointer-exp/pointer-exp.component';
+import { PointerDemoComponent } from './pointer-demo/pointer-demo.component';
 
 @NgModule({
   declarations: [
@@ -32,9 +34,11 @@ import { PrevDirective } from './directives/prev.directive';
     IntroComponent,
     QuestionsComponent,
     ThanksComponent,
-    GreetingsComponent,
     NextDirective,
     PrevDirective,
+    PointerIntroComponent,
+    PointerExpComponent,
+    PointerDemoComponent,
   ],
   imports: [
     BrowserModule,
