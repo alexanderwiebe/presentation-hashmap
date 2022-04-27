@@ -31,6 +31,7 @@
     "@ngrx/router-store": "^13.1.0",
     "@ngrx/store": "^13.1.0",
     "@ngrx/store-devtools": "^13.1.0",
+    "@stackblitz/sdk": "^1.6.0",
     "ngx-markdown": "^13.1.0",
     "prism": "^4.1.2",
     "rxjs": "~7.5.0",
