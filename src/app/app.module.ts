@@ -26,6 +26,12 @@ import { TitleComponent } from './title/title.component';
 import { PointerIntroComponent } from './pointer-intro/pointer-intro.component';
 import { PointerExpComponent } from './pointer-exp/pointer-exp.component';
 import { PointerDemoComponent } from './pointer-demo/pointer-demo.component';
+import { BigoIntroComponent } from './bigo-intro/bigo-intro.component';
+import { BigoOneComponent } from './bigo-one/bigo-one.component';
+import { BigoNComponent } from './bigo-n/bigo-n.component';
+import { BigoNsqrComponent } from './bigo-nsqr/bigo-nsqr.component';
+import { BigoFacComponent } from './bigo-fac/bigo-fac.component';
+import { BigoLogComponent } from './bigo-log/bigo-log.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +45,12 @@ import { PointerDemoComponent } from './pointer-demo/pointer-demo.component';
     PointerIntroComponent,
     PointerExpComponent,
     PointerDemoComponent,
+    BigoIntroComponent,
+    BigoOneComponent,
+    BigoNComponent,
+    BigoNsqrComponent,
+    BigoFacComponent,
+    BigoLogComponent,
   ],
   imports: [
     BrowserModule,
