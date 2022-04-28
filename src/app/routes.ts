@@ -5,6 +5,9 @@ import { BigoLogComponent } from './bigo-log/bigo-log.component';
 import { BigoNComponent } from './bigo-n/bigo-n.component';
 import { BigoNsqrComponent } from './bigo-nsqr/bigo-nsqr.component';
 import { BigoOneComponent } from './bigo-one/bigo-one.component';
+import { HashArrayComponent } from './hash-array/hash-array.component';
+import { HashIntroComponent } from './hash-intro/hash-intro.component';
+import { HashListComponent } from './hash-list/hash-list.component';
 import { IntroComponent } from './intro/intro.component';
 import { PointerDemoComponent } from './pointer-demo/pointer-demo.component';
 import { PointerExpComponent } from './pointer-exp/pointer-exp.component';
@@ -57,6 +60,18 @@ export const routes: Routes = [
   {
     path: 'bigo-log',
     component: BigoLogComponent,
+  },
+  {
+    path: 'hash-intro',
+    component: HashIntroComponent,
+  },
+  {
+    path: 'hash-list',
+    component: HashListComponent,
+  },
+  {
+    path: 'hash-array',
+    component: HashArrayComponent,
   },
   {
     path: 'questions',

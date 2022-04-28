@@ -32,6 +32,9 @@ import { BigoNComponent } from './bigo-n/bigo-n.component';
 import { BigoNsqrComponent } from './bigo-nsqr/bigo-nsqr.component';
 import { BigoFacComponent } from './bigo-fac/bigo-fac.component';
 import { BigoLogComponent } from './bigo-log/bigo-log.component';
+import { HashIntroComponent } from './hash-intro/hash-intro.component';
+import { HashArrayComponent } from './hash-array/hash-array.component';
+import { HashListComponent } from './hash-list/hash-list.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +54,9 @@ import { BigoLogComponent } from './bigo-log/bigo-log.component';
     BigoNsqrComponent,
     BigoFacComponent,
     BigoLogComponent,
+    HashIntroComponent,
+    HashArrayComponent,
+    HashListComponent,
   ],
   imports: [
     BrowserModule,
